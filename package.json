@@ -1,0 +1,41 @@
+{
+  "name": "kissmymetrics",
+  "version": "0.1.0",
+  "description": "KISSmetrics API client",
+  "keywords": [
+    "kissmetrics",
+    "kiss",
+    "metrics",
+    "analytics",
+    "mixpanel"
+  ],
+  "author": {
+    "name": "Pierrick Paul",
+    "email": "pierrick@labelleassiette.com"
+  },
+  "contributors": [{
+    "name": "Andrew Kelley",
+    "email": "superjoe30@gmail.com"
+  },{
+    "name": "Gabriel Lesperance",
+    "email": "gabriel@wavo.me"
+  }],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "superagent": "~0.12.2",
+    "batch": "~0.2.1"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "coveralls": "2.2.x",
+    "mocha": "1.12.x",
+    "mocha-lcov-reporter": "0.0.x",
+    "should": "1.2.x",
+    "istanbul": "0.1.x"
+  },
+  "scripts": {
+    "test": "istanbul cover node_modules/mocha/bin/_mocha tests/test.js --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+  }
+}
