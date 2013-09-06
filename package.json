@@ -1,7 +1,7 @@
 {
   "name": "kissmymetrics",
-  "version": "0.1.0",
-  "description": "KISSmetrics API client",
+  "version": "0.1.1",
+  "description": "KissMyMetrics is a librairy for kissmetrics.com",
   "keywords": [
     "kissmetrics",
     "kiss",
@@ -24,8 +24,8 @@
     "node": ">= 0.8.0"
   },
   "dependencies": {
-    "superagent": "~0.12.2",
-    "batch": "~0.2.1"
+    "superagent": "0.15.x",
+    "batch": "0.5.x"
   },
   "license": "MIT",
   "devDependencies": {

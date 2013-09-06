@@ -4,6 +4,7 @@ KissMyMetrics is a librairy for kissmetrics.com
 This Node.js module isn't associated with Kissmetrics.com
 
 [![Build Status](https://travis-ci.org/LaBelleAssiette/kissmymetrics.png?branch=develop)](https://travis-ci.org/LaBelleAssiette/kissmymetrics)
+[![Coverage Status](https://coveralls.io/repos/LaBelleAssiette/kissmymetrics/badge.png)](https://coveralls.io/r/LaBelleAssiette/kissmymetrics)
 [![NPM version](https://badge.fury.io/js/kissmymetrics.png)](http://badge.fury.io/js/kissmymetrics)
 [![Dependency Status](https://david-dm.org/LaBelleAssiette/kissmymetrics.png)](https://david-dm.org/LaBelleAssiette/kissmymetrics)
 
