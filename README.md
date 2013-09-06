@@ -1,6 +1,7 @@
 # kissMyMetrics
 
-KissMyMetrics is a librairy for kissmetrics.com
+KissMyMetrics is a library for kissmetrics.com
+
 This Node.js module isn't associated with Kissmetrics.com
 
 [![Build Status](https://travis-ci.org/LaBelleAssiette/kissmymetrics.png?branch=develop)](https://travis-ci.org/LaBelleAssiette/kissmymetrics)
